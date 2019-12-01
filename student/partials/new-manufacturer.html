@@ -1,0 +1,25 @@
+<div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-close">×</div>
+        <h2 class="modal-title">Új gyártó hozzáadása</h2>
+        <div class="new-manufacturer-form">
+            <form id="newManufacturerForm" action="/addManufacturers">
+                <div class="form-group">
+                    <label for="mName">Név</label>
+                    <input type="text" class="form-control" id="mName">
+                </div>
+                <div class="form-group">
+                    <label for="mCountry">Ország</label>
+                    <input type="text" class="form-control" id="mCountry">
+                </div>
+                <div class="form-group">
+                    <label for="mFounded">Alapítva</label>
+                    <input type="date" class="form-control" id="mFounded">
+                </div>
+
+                <button class="savebtn" id="saveManufacturerBtn">Ment</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/manufacturer.js"></script>
