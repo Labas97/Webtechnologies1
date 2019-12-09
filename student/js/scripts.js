@@ -48,8 +48,8 @@ $(document).ready(function () {
                 var nameCell = $("<td>" + value.name + "</td>");
                 var colorCell = $("<td>" + value.color + "</td>");
                 var yearCell = $("<td>" + value.year + "</td>");
-                var availableCell = $("<td>" + value.available + "</td>");
-                var horsepowerCell = $("<td>" + value.horsepower + "</td>");
+                var availableCell = $("<td>" + value.available + " db </td>");
+                var horsepowerCell = $("<td>" + value.horsepower + " Le </td>");
 
                 row.append(manufacturerCell);
                 row.append(nameCell);
